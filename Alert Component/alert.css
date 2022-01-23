@@ -1,0 +1,29 @@
+
+.alert{
+    height: 2.4rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.alert i{
+    margin-left: 1rem;
+}
+.alert p{
+    flex-grow: 1;
+    margin: 0 1rem;
+}
+
+.alert-error{
+    background: #fca5a5;
+    color: #b91c1c;
+}
+.alert-success{
+    background: #86efac;
+    color: #047857;
+}
+.alert-info{
+    background: #fde047;
+    color: 
+    #a16207;
+}

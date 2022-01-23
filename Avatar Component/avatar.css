@@ -1,13 +1,4 @@
-html{
-    font-size: 62.5%;
 
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    background: #f7f7f7;
-}
 .container{
     display: flex;
     flex-direction: column;
@@ -29,8 +20,8 @@ img{
     display: flex;
     box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
     align-items: flex-end;
-    justify-content: space-between;
-    flex: 0 1 auto;
+    justify-content: flex-start;
+    
 
 }
 .avatar{

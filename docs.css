@@ -27,8 +27,7 @@ img{
 .docs-container{
     display: grid;
     height: 100vh;
-    grid-template-rows: auto 1fr;
-    grid-template-columns:20rem  1fr 1fr;
+    grid-template-columns:20rem 1fr 1fr;
 }
 .container{
     display: flex;
@@ -40,6 +39,7 @@ nav,aside,main{
 aside{
     grid-column: 1/span 1;
     overflow-y: scroll;
+    
 }
 
 /* navbar */
@@ -49,6 +49,10 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+   
     
 }
 .nav-brand{
@@ -71,6 +75,7 @@ main{
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    margin-top: 2rem;
 }
 main>section{
     border-bottom: 1px solid var(--border-color);

@@ -30,6 +30,10 @@ img{
     grid-template-rows: auto 1fr;
     grid-template-columns:20rem  1fr 1fr;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+}
 nav,aside,main{
     border:1px solid var(--border-color);
 }

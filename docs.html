@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="./Avatar Component/avatar.css">
     <link rel="stylesheet" href="./Alert Component/alert.css">
+    <link rel="stylesheet" href="./Badge Component/badge.css">
 </head>
 <body>
     <div class="docs-container">
@@ -35,13 +36,13 @@
                 <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-md">
                 <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-lg">
                 <h2>Letter Avatar</h2>
-                <div class="avatar-container">
+                <div class="container">
                     <div class="avatar avatar-text"><span>AB</span></div>
                     <div class="avatar avatar-text"><span>XY</span></div>
                     <div class="avatar avatar-text"><span>EN</span></div>
                 </div>
                 <h2>Icon Avatar</h2>
-                <div class="avatar-container">
+                <div class="container">
                     <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-inbox"></i></span></div>
                     <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-paper-plane"></i></span></div>
                     <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-map-marker-alt"></i></span></div>
@@ -65,6 +66,35 @@
                 <div class="alert alert-info">
                     <i class="fas fa-info-circle"></i>
                     <p>This is an info alert</p>
+                </div>
+            </section>
+            <section id="badge">
+                <h1>Badge</h1>
+                <h2>Badge on icons</h2>
+                <div class="container">
+                    <div class="badge">
+                        <i class="fas fa-envelope"></i>
+                        <div class="badge-number"><span>5</span></div>
+                    </div>
+                    <div class="badge badge-two-digit">
+                        <i class="fas fa-envelope"></i>
+                        <div class="badge-number"><span>99+</span></div>
+                    </div>
+                    <div class="badge badge-three-digit">
+                        <i class="fas fa-envelope"></i>
+                        <div class="badge-number"><span>999+</span></div>
+                    </div>
+                </div>
+                <h2>Badge on avatars</h2>
+                <div class="container">
+                    <div class="badge-avatar">
+                        <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-md">
+                        <div class="badge-status badge-online"></div>
+                    </div>
+                    <div class="badge-avatar">
+                        <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-md">
+                        <div class="badge-status badge-busy"></div>
+                    </div>
                 </div>
             </section>
         </main>

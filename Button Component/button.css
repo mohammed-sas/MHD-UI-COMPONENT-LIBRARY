@@ -1,0 +1,75 @@
+html{
+    font-size: 62.5%;
+}
+button{
+    margin: 1rem;
+}
+.btn{
+    padding:1.2rem 2.4rem;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin:0 5px;
+}
+.btn-primary{
+    background: #a855f7;
+}
+.btn-primary:hover{
+   background: #7e22ce;
+
+}
+
+.btn-secondary{
+    background: #e9d5ff;
+    border:1px solid #7e22ce;
+    color: #7e22ce;
+}
+.btn-secondary:hover{
+    background: #d8b4fe;
+}
+.btn-disabled{
+    color: #d1d5db;
+}
+.btn-link{
+    text-decoration: underline;
+    color: #0ea5e9;
+    background: #f7f7f7
+}
+.btn-link:focus{
+    border: 2px solid #0ea5e9;
+}
+.btn-icon{
+    border: none;
+    padding: 2rem;
+    border-radius: 50%;
+    background: black;
+    font-size: 2rem;
+    
+}
+.btn-icon i{
+    color:#a855f7;
+}
+.btn-icon:hover{
+    background: rgb(255 255 255 / 0.2);
+}
+
+.btn-icon:hover i{
+    background: rgb(255 255 255 / 0.01);
+}
+
+.btn-floating{
+    background: #a855f7;
+    padding: 2rem;
+    border-radius: 50%;
+    border: none;
+}
+.btn-floating i{
+    color: white;
+    background: inherit;
+    font-size: 2rem; 
+}
+.btn-floating:hover{
+    box-shadow:0 0 4rem rgb(255 255 255 / 0.6);
+}

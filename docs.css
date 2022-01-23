@@ -1,0 +1,59 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    background: black;
+    
+}
+
+img{
+    max-inline-size: 100%;
+}
+.docs-container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr;
+    grid-template-columns:20rem  1fr 1fr;
+}
+nav,aside,main{
+    border:1px solid #606770;
+}
+
+
+
+aside{
+    grid-column: 1/span 1;
+    overflow-y: scroll;
+}
+
+main{
+    grid-column: 2/span 2;
+}
+
+/* navbar */
+nav{
+    grid-column:1/4 ;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-brand{
+    width:5rem;
+    height:5rem;
+}
+.nav-links{
+    display: flex;
+    width: 20rem;
+    justify-content: space-around;
+}
+.nav-links i{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}

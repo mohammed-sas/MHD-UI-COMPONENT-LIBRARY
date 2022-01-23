@@ -1,0 +1,74 @@
+html{
+    font-size: 62.5%;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container>*{
+    margin: 1rem;
+}
+img{
+    max-inline-size: 100%;
+}
+
+/* small avatar */
+.avatar-container{
+    display: flex;
+    box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+    align-items: flex-end;
+    justify-content: space-between;
+    flex: 0 1 auto;
+
+}
+.avatar{
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.avatar-sm{
+    width: 5rem;
+    height: 5rem; 
+}
+
+.avatar-md{
+    width:7rem;
+    height:7rem;
+}
+
+.avatar-lg{
+    width: 9rem;
+    height: 9rem;
+}
+.avatar-text{
+    width: 5rem;
+    height: 5rem;
+    background-color: #9333ea;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+.avatar-text span{
+    display: inline-block;
+    background-color: inherit;
+    padding-top: 1.5rem;
+    border-radius: 50%;
+}
+.avatar-icon i{
+    color:white;
+    background-color: inherit;
+    font-size: 2rem;
+}

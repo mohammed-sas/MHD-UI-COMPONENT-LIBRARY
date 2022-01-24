@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./Badge Component/badge.css">
     <link rel="stylesheet" href="./Button Component/button.css">
     <link rel="stylesheet" href="./Card Component/card.css">
+    <link rel="stylesheet" href="./Input Component/input.css">
 </head>
 <body>
     <nav>
@@ -288,7 +289,33 @@
                 <h2>Round image</h2>
                 <img src="https://picsum.photos/150" alt="" class="image-round">
             </section>
-            
+            <section id="input">
+                <h1>Input</h1>
+                <h2>Input text</h2>
+                <label for="username">
+                    Username
+                    <br>
+                    <input class="input" type="text" placeholder="Enter Username">
+                </label>
+                <h2>Input with error/verify message</h2>
+                <div class="invalid-input">
+                    <label for="password">
+                        Password <i class="fas fa-times-circle"></i>
+                        <br>
+                        <input class="input" type="password" placeholder="Enter Password">
+                    </label>  
+                        <p>Invalid password. Try again</p>
+                </div>
+                <div class="valid-input">
+                    <label for="password">
+                        Password <i class="fas fa-check-circle"></i>
+                        <br>
+                        <input class="input" type="password" value="12345678" placeholder="Enter Password">
+                        <br>
+                    </label>
+                    <p>Valid password</p>
+                </div>
+            </section>
         </main>
     </div>
 </body>

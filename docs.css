@@ -80,3 +80,8 @@ main{
 main>section{
     border-bottom: 1px solid var(--border-color);
 }
+.image-round{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}

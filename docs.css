@@ -96,13 +96,15 @@ main>section{
     width: 95%;
 }
 
+
  
 iframe{
-    width: 70rem;
-    height: 20rem;
-    border: 1px solid #27272a ;
+    width: 95%;
+    height: 15rem;
+    border: none;
     background: #18181B;
     margin: 1rem 0;
+    
 }
 
 /* aside */

@@ -115,6 +115,30 @@ aside span {
 aside span a{
     text-decoration: none;
 }
-aside span:focus{
-    border:3px solid white;
+
+@media only screen and (max-width:600px){
+    html{
+        font-size: 50%;
+    }
+    iframe{
+        display: none;
+    }
+    .docs-container{
+        display: grid;
+        height: 100vh;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas:"navbar navbar"
+                            "main main" ;
+    }
+    nav{
+        grid-area: navbar;
+    }
+    main{
+        grid-area: main;
+        padding: 1rem;
+    }
+    aside{
+        display: none;
+    }
 }

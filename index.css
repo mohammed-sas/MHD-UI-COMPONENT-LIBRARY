@@ -1,0 +1,39 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family:'Montserrat', sans-serif;;
+}
+
+img{
+    max-inline-size: 100%;
+}
+.hero-brand{
+    width: 200px;
+    height: 200px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+}
+.hero-container>*{
+    margin-top: 1rem;
+}
+.hero-body{
+    font-size: 2rem;
+    width: 50%;
+    text-align: center;
+    margin: 1rem;
+}

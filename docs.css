@@ -101,18 +101,32 @@ iframe{
 aside{
     grid-column: 1/span 1;
     overflow-y: scroll;
+    text-align: center;
+}
+.sidebar-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+.sidebar-btn{
+    font-size: 1.6rem;
+    display: none;
+    
+}
+.sidebar-list{
     padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
-aside span {
+aside div span {
     font-size: 1.4rem;
     margin-top: 1rem;
     padding: 1rem;
 }
-aside span a{
+aside div span a{
     text-decoration: none;
 }
 
@@ -127,8 +141,9 @@ aside span a{
         display: grid;
         height: 100vh;
         grid-template-columns:1fr 1fr;
-        grid-template-rows: auto 1fr;
+        grid-template-rows: auto auto 1fr;
         grid-template-areas:"navbar navbar"
+                            "sidebar sidebar" 
                             "main main" ;
     }
     nav{
@@ -136,9 +151,23 @@ aside span a{
     }
     main{
         grid-area: main;
-        padding: 1rem;
     }
     aside{
+        grid-area: sidebar;
+    }
+    .sidebar-header i{
+        display: block;
+    }
+    .sidebar-list {
         display: none;
     }
+}
+
+
+/* util */
+.display-flex{
+    display: flex;
+}
+.display-none{
+    display: none;
 }

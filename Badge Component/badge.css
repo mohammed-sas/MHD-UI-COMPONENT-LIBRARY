@@ -59,9 +59,11 @@
     bottom:1rem;
 }
 .badge-online{ 
-    background-color: #22c55e;   
+    background-color: #15803d;
+    border: 3px solid black;   
 }
 .badge-busy{
     background-color: #b91c1c;
     position: absolute;
+    border: 3px solid black; 
 }

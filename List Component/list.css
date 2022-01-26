@@ -14,6 +14,13 @@ ul li,ol li{
 .list-style-upper-alpha{
     list-style-type: upper-alpha;
 }
+.list-style-lower-alpha{
+    list-style-type: lower-alpha;
+}
+.list-style-lower-roman{
+    list-style-type: lower-roman;
+}
+
 /*  */
 .lists-container{
     display: flex;

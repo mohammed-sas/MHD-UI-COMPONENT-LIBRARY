@@ -20,7 +20,30 @@ ul li,ol li{
 .list-style-lower-roman{
     list-style-type: lower-roman;
 }
-
+/* notification list */
+.notification-lists{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    list-style: none;
+}
+.notification-list-item{
+    display: flex;
+    align-items: center;
+    border: 2px solid #18181B;
+    width: 30rem;
+    padding: 1rem;
+    margin:5px 0;
+}
+.notification-list-item i{
+    font-size: 1.8rem;
+}
+.notification-list-item>*{
+    margin-right:1rem ;
+}
+.notification-list-item p{
+    width: 30rem;
+}
 /*  */
 .lists-container{
     display: flex;

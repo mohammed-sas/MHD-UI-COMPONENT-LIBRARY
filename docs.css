@@ -19,6 +19,7 @@ h3{
 
 p{
     font-size: 1.6rem;
+    line-height:1.6;
 }
 *{
 
@@ -77,7 +78,7 @@ main{
     display: flex;
     flex-direction: column;
     position: relative;
-    padding: 1rem;
+    padding: 1rem 3rem;
     overflow-y: scroll;
 }
 main>section{
@@ -100,7 +101,7 @@ main>section{
  
 iframe{
     width: 95%;
-    height: 15rem;
+    height: 16rem;
     border: none;
     background: #18181B;
     margin: 1rem 0;

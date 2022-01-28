@@ -138,9 +138,9 @@ aside{
     align-items: center;
 }
 aside div span {
-    font-size: 1.4rem;
-    margin-top: 1rem;
-    padding: 1rem;
+    font-size: 1.6rem;
+    margin-top: 5px;
+    padding: 8px 0;
 }
 aside div span a{
     text-decoration: none;

@@ -13,8 +13,8 @@ img{
     max-inline-size: 100%;
 }
 .hero-brand{
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
 }
 .btn a{
     text-decoration: none;
@@ -83,7 +83,7 @@ img{
 }
 @keyframes magnify{
     from{
-        transform: scale(0.5,0.5);
+        transform: scale(0.7,0.7);
         opacity: 0.5;
     }
     to{

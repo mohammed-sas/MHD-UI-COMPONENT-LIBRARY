@@ -5,20 +5,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
-/* util */
-.bg-none{
-    background: none;
-}
-.fluid-y{
-    display: flex;
-    flex-direction: column;
-}
-.fluid-x{
-    display: flex;
-}
-.relative-pos{
-    position: relative;
-}
+
 /* heading */
 .heading{
     font-size: 2rem;
@@ -104,16 +91,6 @@
       border-right:1rem solid transparent ;
       border-bottom:1rem solid transparent ;
   }
-/* variant basic with text overlay */
-  .overlay-text{
-      position: absolute;
-      bottom: 0;
-      margin: 1rem 0;  
-  }
-  .overlay-text>*{
-      background: none;
-      color: #ffffff;
-  }
 
 /* variant basic with header */
   .card-image-w-header>img{
@@ -166,4 +143,25 @@
 }
 .card-footer-basic.flex-end{
     justify-content: flex-end;
+}
+
+/* util */
+.mt-negative-7{
+    margin-top: -7rem;
+}
+.bg-none{
+    background: none;
+}
+.fluid-y{
+    display: flex;
+    flex-direction: column;
+}
+.fluid-x{
+    display: flex;
+}
+.relative-pos{
+    position: relative;
+}
+.color-white{
+    color: white;
 }

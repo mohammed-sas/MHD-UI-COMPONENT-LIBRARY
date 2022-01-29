@@ -5,20 +5,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
-/* util */
-.bg-none{
-    background: none;
-}
-.fluid-y{
-    display: flex;
-    flex-direction: column;
-}
-.fluid-x{
-    display: flex;
-}
-.relative-pos{
-    position: relative;
-}
+
 /* heading */
 .heading{
     font-size: 2rem;
@@ -104,16 +91,6 @@
       border-right:1rem solid transparent ;
       border-bottom:1rem solid transparent ;
   }
-/* variant basic with text overlay */
-  .overlay-text{
-      position: absolute;
-      bottom: 0;
-      margin: 1rem 0;  
-  }
-  .overlay-text>*{
-      background: none;
-      color: #ffffff;
-  }
 
 /* variant basic with header */
   .card-image-w-header>img{
@@ -122,16 +99,21 @@
   }
 /* variant horizontal image and text */
 .card-horizontal-text-img{
-    display: flex;
-    flex-direction: row;
-    background: #ffffff;
-    border-radius: 1rem 1rem 0 0;
+    display: block;
 }
-.card-horizontal-text-img img{
+.card-horizontal-text-img  img{
     width: 11rem;
     height: 11rem;
 }
-
+.card-horizontal-text-img .card-image-basic{
+    display: inline-block;
+    width: fit-content;
+}
+.card-horizontal-text-img .card-heading{
+    display: inline-block;
+    width: fit-content;
+    vertical-align: top;
+}
 /* dismiss btn */
 .btn-dismiss{
     position: absolute;
@@ -166,4 +148,31 @@
 }
 .card-footer-basic.flex-end{
     justify-content: flex-end;
+}
+
+/* util */
+.mt-negative-7{
+    margin-top: -7rem;
+}
+.bg-none{
+    background: none;
+}
+.fluid-y{
+    display: flex;
+    flex-direction: column;
+}
+.fluid-x{
+    display: flex;
+}
+.relative-pos{
+    position: relative;
+}
+.color-white{
+    color: white;
+}
+.display-none{
+    display: none;
+}
+.bg-white{
+    background: white;
 }

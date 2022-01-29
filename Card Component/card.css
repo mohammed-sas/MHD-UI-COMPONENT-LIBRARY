@@ -99,16 +99,21 @@
   }
 /* variant horizontal image and text */
 .card-horizontal-text-img{
-    display: flex;
-    flex-direction: row;
-    background: #ffffff;
-    border-radius: 1rem 1rem 0 0;
+    display: block;
 }
-.card-horizontal-text-img img{
+.card-horizontal-text-img  img{
     width: 11rem;
     height: 11rem;
 }
-
+.card-horizontal-text-img .card-image-basic{
+    display: inline-block;
+    width: fit-content;
+}
+.card-horizontal-text-img .card-heading{
+    display: inline-block;
+    width: fit-content;
+    vertical-align: top;
+}
 /* dismiss btn */
 .btn-dismiss{
     position: absolute;
@@ -167,4 +172,7 @@
 }
 .display-none{
     display: none;
+}
+.bg-white{
+    background: white;
 }
